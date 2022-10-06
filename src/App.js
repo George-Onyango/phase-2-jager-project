@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
+// Other Components
+import LandingPage from "./components/Home_Page";
+import CreateStudent from "./components/registerStudent";
 
 function App() {
+  // State for student details
+  const [students, setStudents] = useState([]);
+
+  function addNewStudent(newStudent) {
+    const updatedStudent = [...students, newStudent];
+    setStudents(updatedStudent);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route exact path="/" element={<LandingPage students={students} />} />
+      <Route
+        exact
+        path="/createStudent"
+        element={<CreateStudent addNewStudent={addNewStudent} />}
+      />
+    </Routes>
   );
 }
 
