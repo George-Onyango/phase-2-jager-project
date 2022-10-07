@@ -30,12 +30,12 @@ function LandingPage() {
       <div
         style={{
           textAlign: "center",
-                  backgroundColor: "#75B8C8",
-                  opacity: '.9',
-          height:'100vh'
+          backgroundColor: "#75B8C8",
+          opacity: ".9",
+          height: "100vh",
         }}
       >
-        <h1>This is a student transcript filler</h1>
+        <h1>This is a student transclarificationcript filler</h1>
         <form onSubmit={(e) => findStudent(e)}>
           <input
             style={{
