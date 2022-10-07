@@ -17,17 +17,17 @@ function App() {
     setStudents(updatedStudent);
   }
   return (
-    <div style={{ paddingLleft: '200px' }}>
+    <div style={{ backgroundColor: "#CDD3D5" }}>
       <Navbar />
       <Routes>
-        <Route exact path="/signin" element={<SignIn />}/>
+        <Route exact path="/signin" element={<SignIn />} />
         <Route exact path="/" element={<LandingPage students={students} />} />
         <Route
           exact
           path="/createStudent"
           element={<CreateStudent addNewStudent={addNewStudent} />}
         />
-        <Route exact path="/signout" element={<SignOut />}/>
+        <Route exact path="/signout" element={<SignOut />} />
       </Routes>
     </div>
   );
