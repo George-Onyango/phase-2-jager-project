@@ -5,6 +5,7 @@ import SignOut from "./components/auth/signout";
 
 // Other Components
 import LandingPage from "./components/Home_Page";
+import Navbar from "./components/Navbar";
 import CreateStudent from "./components/registerStudent";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     setStudents(updatedStudent);
   }
   return (
-    <div style={{paddingLleft:'200px'}}>
+    <div style={{ paddingLleft: '200px' }}>
+      <Navbar />
       <Routes>
         <Route exact path="/signin" element={<SignIn />}/>
         <Route exact path="/" element={<LandingPage students={students} />} />
