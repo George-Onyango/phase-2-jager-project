@@ -46,23 +46,31 @@ function CreateStudent({ addNewStudent }) {
         <div id="form-detail">
           <h3>Contact Details</h3>
           <label htmlFor="name">Name</label>
+          <br />
           <input
+            style={{ marginBottom: "10px", height: "30px" }}
             type="text"
             name="name"
             value={studentDetails.name}
             onChange={(e) => handleChange(e)}
           />
+          <br />
           <label htmlFor="email">Email</label>
+          <br />
           <input
+            style={{ marginBottom: "10px", height: "30px" }}
             type="email"
             name="email"
             id="email"
             value={studentDetails.email}
             onChange={(e) => handleChange(e)}
           />
+          <br />
           <label htmlFor="github">Mobile Number</label>
+          <br />
           <input
-            type="text"
+            style={{ marginBottom: "10px", height: "30px" }}
+            type="number"
             name="mobile"
             value={studentDetails.mobile}
             onChange={(e) => handleChange(e)}
@@ -73,7 +81,9 @@ function CreateStudent({ addNewStudent }) {
         <div className="education">
           <h3>Previuos Academic Report</h3>
           <label htmlFor="education">Most Recent Education level</label>
+          <br />
           <input
+            style={{ height: "30px" }}
             type="text"
             name="education"
             value={studentDetails.education}
@@ -85,9 +95,11 @@ function CreateStudent({ addNewStudent }) {
         <div className="identification">
           <h3>Form of Identification</h3>
           <label htmlFor="identification">National ID</label>
+          <br />
           <input
-            type="text"
-            name="clarification"
+            style={{ height: "30px" }}
+            type="number"
+            name="nationalId"
             id="nationalId"
             value={studentDetails.nationalId}
             onChange={(e) => handleChange(e)}
