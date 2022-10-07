@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import SignIn from "./components/auth/signin";
+import SignOut from "./components/auth/signout";
 
 // Other Components
 import LandingPage from "./components/Home_Page";
@@ -14,14 +16,18 @@ function App() {
     setStudents(updatedStudent);
   }
   return (
-    <Routes>
-      <Route exact path="/" element={<LandingPage students={students} />} />
-      <Route
-        exact
-        path="/createStudent"
-        element={<CreateStudent addNewStudent={addNewStudent} />}
-      />
-    </Routes>
+    <div style={{paddingLleft:'200px'}}>
+      <Routes>
+        <Route exact path="/signin" element={<SignIn />}/>
+        <Route exact path="/" element={<LandingPage students={students} />} />
+        <Route
+          exact
+          path="/createStudent"
+          element={<CreateStudent addNewStudent={addNewStudent} />}
+        />
+        <Route exact path="/signout" element={<SignOut />}/>
+      </Routes>
+    </div>
   );
 }
 
