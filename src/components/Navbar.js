@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const linkStyles = {
-  display: "flex",
+  display: "",
   width: "100px",
   padding: "20px",
   margin: "0 10px 10px",
@@ -17,7 +17,9 @@ function Navbar() {
        <div
       style={{
         width: "1000px",
-        textAlign: "center",
+          textAlign: "center",
+          paddingTop: '50px',
+        paddingBottom:'50px'
       }}
     >
       <NavLink to="/signin" exact="true" style={linkStyles}>
