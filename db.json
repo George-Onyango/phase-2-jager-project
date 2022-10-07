@@ -1,5 +1,13 @@
 {
-    "student":{
-        
+  "student": [
+    {
+      "name": "George Onyango",
+      "email": "junioronyango13@gmail.com",
+      "mobile": "9876545",
+      "nationalId": "",
+      "education": "Highschool",
+      "clarification": "38945724",
+      "id": 1
     }
+  ]
 }

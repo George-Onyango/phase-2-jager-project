@@ -88,7 +88,7 @@ function CreateStudent({addNewStudent}) {
               type="text"
               name="clarification"
               id="clarification"
-              value={studentDetails.skills}
+              value={studentDetails.nationalId}
               onChange={(e) => handleChange(e)}
             />
           </div>
