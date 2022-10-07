@@ -21,8 +21,8 @@ function App() {
       style={{
         backgroundColor: "#CDD3D5",
         backgroundImage:
-          "url(" +
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsX3dHA8e7MYPh5Ui-XizCQ_-RAKGj0PEAEh2uA1M0MP5EwNx28Ix9nLPOYLLYkXjYPc&usqp=CAU" + ')',
+          `url(
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsX3dHA8e7MYPh5Ui-XizCQ_-RAKGj0PEAEh2uA1M0MP5EwNx28Ix9nLPOYLLYkXjYPc&usqp=CAU)`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         height:'100vh'
