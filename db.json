@@ -8,6 +8,42 @@
       "education": "Highschool",
       "clarification": "38945724",
       "id": 1
+    },
+    {
+      "name": "George Onyango",
+      "email": "junioronyango13@gmail.com",
+      "mobile": ")794329992",
+      "nationalId": "",
+      "education": "Highschool",
+      "clarification": "38945724",
+      "id": 2
+    },
+    {
+      "name": "JJ barea",
+      "email": "onyangogeorge954@gmail.com",
+      "mobile": "09876543",
+      "education": "Highschool",
+      "nationalId": "",
+      "clarification": "38945724",
+      "id": 3
+    },
+    {
+      "name": "jimmy",
+      "email": "george.onyango@student.moringaschool.com",
+      "mobile": "98765007",
+      "education": "high",
+      "nationalId": "",
+      "clarification": "38945724",
+      "id": 4
+    },
+    {
+      "name": "Knight",
+      "email": "ju@gmail.com",
+      "mobile": "0794329992",
+      "education": "Campus",
+      "nationalId": "",
+      "clarification": "38945724",
+      "id": 5
     }
   ]
 }

@@ -43,7 +43,7 @@ function CreateStudent({ addNewStudent }) {
     <div>
       <form className="resume" onSubmit={(e) => createStudent(e)}>
         {/*official name, phone, email */}
-        <div>
+        <div id="form-detail">
           <h3>Contact Details</h3>
           <label htmlFor="name">Name</label>
           <input
