@@ -17,14 +17,15 @@ function Navbar() {
        <div
       style={{
         width: "1000px",
-          textAlign: "center",
+          textAlign: "right",
           paddingTop: '50px',
-        paddingBottom:'50px'
+          paddingBottom: '50px',
+          marginRight:'20px'
       }}
     >
-      <NavLink to="/signin" exact="true" style={linkStyles}>
+      {/* <NavLink to="/signin" exact="true" style={linkStyles}>
         Sign In
-      </NavLink>
+      </NavLink> */}
       <NavLink to="/" exact="true" style={linkStyles}>
          Home
       </NavLink>
