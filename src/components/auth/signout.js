@@ -35,7 +35,7 @@ function SignOut() {
           borderRadius: "10",
         }}
         onClick={backToHomePage}
-      ></button>
+      > Go Home</button>
     </div>
   );
 }
