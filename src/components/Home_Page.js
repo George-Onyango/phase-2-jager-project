@@ -27,16 +27,32 @@ function LandingPage() {
     }
     return (
       <>
-        <div>
+        <div
+          style={{
+            textAlign: "center",
+            
+          }}
+        >
           <h1>This is a student transcript filler</h1>
           <form onSubmit={(e) => findStudent(e)}>
             <input
+              style={{
+                height: "50px",
+                borderRadius: "10px",
+              }}
               type="text"
               placeholder="search resume"
               value={filterName}
               onChange={(e) => getUserInput(e)}
             />
-            <button>Search</button>
+            <button
+              style={{
+                marginLeft: "10px",
+                height: "30px",
+              }}
+            >
+              Search
+            </button>
           </form>
 
           <div>
