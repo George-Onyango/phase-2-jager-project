@@ -22,49 +22,70 @@ function SignIn() {
   }
 
   return (
-    <div>
-      <form
-        style={{ display: "flex", flexDirection: "column", width: "400px",marginLeft:'50px',marginTop:'20px'
-       }}
-        onSubmit={(e) => registerUser(e)}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "#75B8C8",
+          borderRadius: '20px',
+          paddingBottom: '30px',
+          opacity:'.8'
+        }}
       >
-        <div style={{}}>
-          <label htmlFor="username">Username: </label>
-          <br/>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            value={userRegister.username}
-            onChange={(e) => handleUserRegistration(e)}
-          />
-        </div>
-
-        <div
+        <form
           style={{
-            marginTop: "30px",
+            justifyContent: "center",
+            width: "100vh",
+            marginTop: "20px",
           }}
+          onSubmit={(e) => registerUser(e)}
         >
-          <label htmlFor="password">Password: </label>
-          <br />
-          <input
-            type="password"
-            name="password"
-            id="password"
-            value={userRegister.password}
-            onChange={(e) => handleUserRegistration(e)}
-          />
-        </div>
+          <div
+            style={{
+              textAlign: "center",
+            }}
+          >
+            <label htmlFor="username">Username: </label>
+            <br />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              value={userRegister.username}
+              onChange={(e) => handleUserRegistration(e)}
+            />
 
-        <button
-          style={{
-            width: "100px",
-            marginTop: "30px",
-          }}
-        >
-          Sign In
-        </button>
-      </form>
+            <div
+              style={{
+                marginTop: "30px",
+              }}
+            >
+              <label htmlFor="password">Password: </label>
+              <br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                value={userRegister.password}
+                onChange={(e) => handleUserRegistration(e)}
+              />
+            </div>
+
+            <button
+              style={{
+                width: "100px",
+                marginTop: "30px",
+              }}
+            >
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
