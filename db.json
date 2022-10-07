@@ -1,49 +1,20 @@
 {
   "student": [
     {
-      "name": "George Onyango",
-      "email": "junioronyango13@gmail.com",
-      "mobile": "9876545",
-      "nationalId": "",
-      "education": "Highschool",
-      "clarification": "38945724",
+      "name": "Knight",
+      "email": "we@gmail.com",
+      "mobile": "567890",
+      "education": "collage",
+      "nationalId": "9087623",
       "id": 1
     },
     {
-      "name": "George Onyango",
-      "email": "junioronyango13@gmail.com",
-      "mobile": ")794329992",
-      "nationalId": "",
-      "education": "Highschool",
-      "clarification": "38945724",
-      "id": 2
-    },
-    {
-      "name": "JJ barea",
-      "email": "onyangogeorge954@gmail.com",
-      "mobile": "09876543",
-      "education": "Highschool",
-      "nationalId": "",
-      "clarification": "38945724",
-      "id": 3
-    },
-    {
-      "name": "jimmy",
-      "email": "george.onyango@student.moringaschool.com",
-      "mobile": "98765007",
+      "name": "Taylor",
+      "email": "yuo@gmail.com",
+      "mobile": "12345",
       "education": "high",
-      "nationalId": "",
-      "clarification": "38945724",
-      "id": 4
-    },
-    {
-      "name": "Knight",
-      "email": "ju@gmail.com",
-      "mobile": "0794329992",
-      "education": "Campus",
-      "nationalId": "",
-      "clarification": "38945724",
-      "id": 5
+      "nationalId": "1234567",
+      "id": 2
     }
   ]
 }
