@@ -6,9 +6,9 @@ const linkStyles = {
   width: "100px",
   padding: "20px",
   margin: "0 10px 10px",
-  background: "#0xff75B8C8",
+  background: "#75B8C8",
   textDecoration: "none",
-  color: "white",
+  color: "#CDD3D5",
   borderRadius: "6px",
 };
 
@@ -27,7 +27,7 @@ function Navbar() {
          Home
       </NavLink>
       <NavLink to="/createstudent" exact="true" style={linkStyles}>
-        Create Resume
+        Create Student
       </NavLink>
       <NavLink to="/signout" exact="true" style={linkStyles}>
         Sign Out
