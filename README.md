@@ -7,14 +7,11 @@
 This is a React project to help lecturers easily identify a student in his/her course and award marks accordingly to the mark attained. Also the lecturer is able to reach individual student in case of an issue.
 
 ## Usage
-`
-mkdir jager
+`mkdir jager
 git clone git@github.com:George-Onyango/phase-2-jager-project.git
 cd project
 run npm install
-run npm start
-
-`
+run npm start`
 
 ## MVP
 1. SignIn page
