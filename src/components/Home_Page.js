@@ -14,7 +14,7 @@ function LandingPage() {
     function findStudent(e) {
       e.preventDefault();
 
-      fetch()
+      fetch(`http://localhost:3000/student`)
         .then((res) => res.json())
         .then((students) => {
           const searchedStudent = students.find(

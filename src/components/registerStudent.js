@@ -20,7 +20,7 @@ function CreateStudent({addNewStudent}) {
     function createStudent(e) {
         e.preventDefault();
 
-        fetch({
+        fetch(`http://localhost:3000/student`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
