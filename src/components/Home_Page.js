@@ -14,7 +14,7 @@ function LandingPage() {
   function findStudent(e) {
     e.preventDefault();
 
-    fetch(`https://my-json-datab.herokuapp.com`)
+    fetch(`https://my-json-datab.herokuapp.com/student`)
       .then((res) => res.json())
       .then((students) => {
         const searchedStudent = students.find(
