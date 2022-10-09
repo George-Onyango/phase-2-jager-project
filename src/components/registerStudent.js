@@ -19,7 +19,7 @@ function CreateStudent({ addNewStudent }) {
   function createStudent(e) {
     e.preventDefault();
 
-    fetch(`http://localhost:3000/student`, {
+    fetch(`https://my-json-datab.herokuapp.com`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
