@@ -56,7 +56,7 @@ function CreateStudent({ addNewStudent }) {
           opacity: ".9",
         }}
       >
-        <form className="resume" onSubmit={(e) => createStudent(e)}>
+        <form className="students" onSubmit={(e) => createStudent(e)}>
           {/*official name, phone, email */}
           <div id="form-detail">
             <h3>Contact Details</h3>
@@ -81,7 +81,7 @@ function CreateStudent({ addNewStudent }) {
               onChange={(e) => handleChange(e)}
             />
             <br />
-            <label htmlFor="github">Mobile Number</label>
+            <label htmlFor="mobile">Mobile Number</label>
             <br />
             <input
               style={{ marginBottom: "10px", height: "30px" }}

@@ -7,7 +7,7 @@ function DisplayStudent({ student }) {
         <br />
         <h3>Personal Information</h3>
         <li>Email: {student.email}</li>
-        <li>Github Profile: {student.mobile}</li>
+        <li>Mobile Number: {student.mobile}</li>
         <br />
         <h3>Education</h3>
         <li>{student.education}</li>
